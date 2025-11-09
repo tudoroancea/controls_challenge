@@ -192,7 +192,7 @@ class TinyPhysicsSimulator:
   def rollout(self) -> Dict[str, float]:
     if self.debug:
       plt.ion()
-      fig, ax = plt.subplots(4, figsize=(12, 14), constrained_layout=True)
+      fig, ax = plt.subplots(4, figsize=(12, 8), constrained_layout=True, sharex="all")
 
     for _ in range(CONTEXT_LENGTH, len(self.data)):
       self.step()
