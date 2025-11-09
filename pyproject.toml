@@ -1,0 +1,14 @@
+[project]
+name = "controls-challenge"
+version = "0.1.0"
+description = "Controls challenge project"
+readme = "README.md"
+requires-python = "~=3.11"
+dependencies = [
+    "numpy",
+    "onnxruntime",
+    "pandas==2.1.2",
+    "matplotlib==3.8.1",
+    "seaborn==0.13.2",
+    "tqdm",
+]
