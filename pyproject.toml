@@ -18,3 +18,7 @@ dependencies = [
 
 [tool.uv.sources]
 tinygrad = { git = "https://github.com/tinygrad/tinygrad.git" }
+
+[tool.ruff]
+indent-width = 2
+format.exclude = ["tinyphysics.py", "eval.py", "experiment.ipynb", "controllers/pid.py", "controllers/zero.py"]
